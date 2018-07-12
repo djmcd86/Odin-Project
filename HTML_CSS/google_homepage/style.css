@@ -1,0 +1,57 @@
+background color
+texts color
+search box width 50%
+fonts
+alignments
+shadow
+fonts
+absolute or fixed positions
+
+header {
+	text-align: right;
+}
+
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: #fff;
+}
+
+.topfooter {
+	width: 100%;
+	background-color: #fff;
+
+}
+
+.leftgroup {
+	text-align: left;
+
+}
+
+.rightgroup {
+	text-align: right;
+
+}
+
+.logo {
+
+}
+
+.button {
+
+}
+
+/*div{ margin: 20px 10px 20px 10px; / This shorthand refers to TOP, Right, Bottom, Left. Its easier to picture a clock at 12, 3, 6 and 9 respectively /
+
+margin: 20px 10px 20px; / This refers to Top, Left and Right, Bottom /
+
+margin: 20px 10px; / This refers to Top and Bottom, Left and Right /
+
+margin: 20px; / This refers to 20px worth of margin on all 4 sides / }
+
+Extra tip: margins with auto on the left and right are used to center an element with a display value of block. Its written simply as:
+
+div { margin: 0 auto; } */
+
