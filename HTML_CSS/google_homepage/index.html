@@ -8,34 +8,36 @@
 
 
 <body>
-	<header><span class="rightgroup"> links to gmail, images, box logo, bell logo, avatar</span></header>
+	<header><a href="#">Gmail</a><a href="#">Images</a> box logo bell logo avatar</header>
 	<div>
 		<img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 	</div>
 	
 	<div>
 		<form action="#" method="GET">
-			<div>
-				<textarea name="search"></textarea>
+			<div >
+				<input type="text" name="search" class="searchbar">
 				<!--add mic button?-->
 			</div>
 
-			<div>
-				<input class="button" type="submit" name="Google Search">
-				<input class="button" type="submit" name="I'm feeling lucky">
+			<div class="submit">
+				<button>Google Search</button>
+				<button>I'm Feeling Lucky</button>
 			</div>
 		</form>
 	</div>
 	
-	<div><p>text with a link</p></div>
 
-	<footer class="top footer">
-		<p>Australia left aligned</p>
-	</footer>
+	<div >
+		<div class="topfooter">Australia</div>
+		<div class="footer-container"><span class="leftgroup">Advertising Business About</span><span class="rightgroup">Privacy Terms Settings</span></div>
+	</div>
+
+	<!--<div class="topfooter">Australia left aligned</div>
 
 	<footer class="footer">
-		<p><span class="leftgroup">Advertising Business About(left)</span><span class="rightgroup"> Privacy Terms Settings (right)</span></p>
-	</footer>
+		<span class="leftgroup">Advertising Business About(left)</span><span class="rightgroup"> Privacy Terms Settings (right)</span>
+	</footer>-->
 
 </body>
 
