@@ -12,7 +12,7 @@ absolute or fixed positions
   justify-content: center;
   align-items: center;
 }*/
-* { border: 1px solid red; }
+/** { border: 1px solid red; }*/
 
 header {
 	text-align: right;
